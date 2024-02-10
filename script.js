@@ -160,7 +160,7 @@ function favirateDisplay(watchList){
         favDiv.appendChild(favStockRate)
 
         const icon = document.createElement('i')
-        icon.classList.add('bx', 'bxs-pin');
+        icon.classList.add('bx', 'bx-x');
         icon.id=i
         icon.addEventListener('click',(e)=>{
             console.log(e.target.id);
