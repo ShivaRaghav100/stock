@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <h1 class="heading">STOCK MARKET DASHBOARD </h1>
+    <section>
+        <div id="button">
+            <form class="input" id="input">
+                <input type="text" class="btn" id="inpt" name="value">
+                <button class="btn" id="search">search</button>
+            </form>
+            <div class="input">
+                <button class="btn" id="intraday">INTRADAY</button>
+                <button class="btn" id="weekly">WEEKLY</button>
+                <button class="btn" id="daily">DAILY </button>
+                <button class="btn" id="monthly">MONTHLY</button>
+            </div>
+        </div>
+        <div id="main">
+            <div class="clild">
+                <h1>watchList</h1>
+                <div class="addFavirate" id="favDiv">
+                    <!-- <div>
+                        <span>amaz</span>
+                        <span>123.2</span>
+                        <span>INTRADAY</span>
+                        <span><i class='bx bxs-x-circle'></i></span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="clild2" >
+                <div class="head">
+                    <h1>Details </h1>
+                    <span><i class='bx bxs-pin' id="pin"></i></span>
+                </div>
+                <div class="addFavirate content" id="contaner">
+                    <!-- <span>amaz</span>
+                    <span>123.2</span>
+                    <span>INTRADAY</span>
+                    <span>shiva</span> -->
+                </div>
+                <div class="content">
+                    <span>Date</span>
+                    <span>Open</span>
+                    <span>High</span>
+                    <span>Low</span>
+                    <span>Close</span>
+                    <span>Volume</span>
+                </div>
+                
+                <div id="divEditer">
+                    <!-- <div>
+                        <span>Date1</span>
+                        <span>Open2</span>
+                        <span>High3</span>
+                        <span>Low4</span>
+                        <span>Close5</span>
+                        <span>Volume6</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js" ></script>
+</body>
+</html>
